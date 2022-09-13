@@ -1,0 +1,1 @@
+Sitemap: http://localhost/starter-web/sitemapindex1.xml

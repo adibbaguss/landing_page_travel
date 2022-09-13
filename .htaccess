@@ -1,0 +1,24 @@
+## Turn on rewrite engine
+RewriteEngine on
+Options -Indexes +FollowSymLinks
+
+RewriteRule ^$ template.php?module=home [L]
+
+RewriteRule ^404$ /appweb/Views/404.php [L]
+
+# Deny access to htaccess
+<files .htaccess>
+    order allow,deny
+    deny from all
+</files>
+
+# Not Found
+ErrorDocument 404 /appweb/Views/404.php
+# Forbidden
+ErrorDocument 403 /appweb/Views/403.php
+# Internal Server Error
+ErrorDocument 500 /appweb/Views/500.php
+# Bad Request
+ErrorDocument 400 /appweb/Views/400.php
+# Unauthorised
+ErrorDocument 401 /appweb/Views/401.php

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<sitemapindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/siteindex.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+   <sitemap>
+      <loc>https://www.demo2.arpateam.com/sitemappage.php</loc>
+   </sitemap>
+
+   <sitemap>
+      <loc>https://www.demo2.arpateam.com/sitemapdaftarharga.php</loc>
+   </sitemap>
+
+   <sitemap>
+      <loc>https://www.demo2.arpateam.com/sitemapportofolio.php</loc>
+   </sitemap>
+
+   <sitemap>
+      <loc>https://www.demo2.arpateam.com/sitemapblog.php</loc>
+   </sitemap>
+
+   <sitemap>
+      <loc>https://www.demo2.arpateam.com/sitemappenawaran.php</loc>
+   </sitemap>
+
+   <sitemap>
+      <loc>https://www.demo2.arpateam.com/sitemappromo.php</loc>
+   </sitemap>
+
+</sitemapindex>
