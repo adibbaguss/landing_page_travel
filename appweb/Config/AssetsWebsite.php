@@ -32,4 +32,9 @@
 
     		$alamat			= "Jl. Wiyoro Kidul, Wiyoro, Baturetno, Kec. Banguntapan, Kabupaten Bantul, Daerah Istimewa Yogyakarta 55197";
 
+			// tambahan
+			$backgroundJumbtoron = "background_jumbotron.webp";
+
+			$imgJumbotron = "jumbotron-img.png";
+
 ?>

@@ -1,4 +1,4 @@
-<section class="container-fluid mt--5">
+<section class="container-fluid">
     <div class="container bg-white rounded-5 px-0 px-sm-2 py-4">
         <h1 class="text-center fw-bold text-primary" data-aos="fade-in" data-aos-duration="2000">Penawaran Terbaik Untuk Bisnis Anda</h1>
         <p class="text-center text-muted" data-aos="fade-in" data-aos-duration="2000">Dengan memiliki website, akan ada banyak peluang yang bisa anda raih dalam mendapatkan pelanggan.<br />Dapatkan harga khusus untuk anda para penggerak UMKM</p>

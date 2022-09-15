@@ -1,14 +1,14 @@
 <?php
 
-	$nama_web		= "#ARPATEAM";
+	$nama_web		= "Tour & Travel";
 	$slogan			= "Solusi Pendukung UMKM di Era Digital";
-	$base_url		= "http://localhost/starter-web-front-end";
-	$base_url_admin	= "http://localhost/starter-web-front-end/portal/Admin";
+	$base_url		= "http://localhost/landing_page_travel";
+	$base_url_admin	= "http://localhost/landing_page_travel/portal/Admin";
 	$short_url		= "localhost/starter-web";
 	$domain			= "www.arpateam.com";
-	$url_images		= "http://localhost/starter-web-front-end/assets/files/images";
-	$url_others		= "http://localhost/starter-web-front-end/assets/files/others";
-	$url_videos		= "http://localhost/starter-web-front-end/assets/files/videos";
+	$url_images		= "http://localhost/landing_page_travel/assets/files/images";
+	$url_others		= "http://localhost/landing_page_travel/assets/files/others";
+	$url_videos		= "http://localhost/landing_page_travel/assets/files/videos";
 
 	$namaEmail_e 	= " "; // Nama Akun Email Notifikasi
 	$email_ee		= " "; // Nama Email Notifikasi

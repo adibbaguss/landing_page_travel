@@ -1,4 +1,6 @@
-.image-zoom-on-hover:hover{
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+
+.image-zoom-on-hover:hover {
   transform: scale(1.1);
   transition: 0.5s;
   box-sizing: border-box !important;
@@ -38,35 +40,79 @@
 }
 /* ============ desktop view ============ */
 @media all and (min-width: 992px) {
-  .navbar .dropdown-menu-end{
-    right:0;
-    left: auto; 
+  .navbar .dropdown-menu-end {
+    right: 0;
+    left: auto;
   }
-  .navbar .nav-item .dropdown-menu{
-    display:block;
+  .navbar .nav-item .dropdown-menu {
+    display: block;
     opacity: 0;
     visibility: hidden;
-    transition:.3s;
-    margin-top:0;
+    transition: 0.3s;
+    margin-top: 0;
   }
-  .navbar .nav-item:hover .nav-link{ }
-  .navbar .dropdown-menu.fade-down{
-    top:80%;
+  /* .navbar .nav-item:hover .nav-link {
+  } */
+  .navbar .dropdown-menu.fade-down {
+    top: 80%;
     transform: rotateX(-75deg);
     transform-origin: 0% 0%;
   }
-  .navbar .dropdown-menu.fade-up{
-    top:180%;
+  .navbar .dropdown-menu.fade-up {
+    top: 180%;
   }
-  .navbar .nav-item:hover .dropdown-menu{
-    transition: .3s;
-    opacity:1;
-    visibility:visible;
-    top:100%; 
+  .navbar .nav-item:hover .dropdown-menu {
+    transition: 0.3s;
+    opacity: 1;
+    visibility: visible;
+    top: 100%;
     transform: rotateX(0deg);
   }
-} 
+}
 /* ============ desktop view .end// ============ */
 
-
 /*TAMBAHKAN CSS ANDA DI BAWAH INI!!!*/
+/* font display */
+.text-display {
+  font-family: 'Saira Stencil One', cursive;
+  font-size: 6vw;
+  letter-spacing: 5px;
+}
+/* == menu background blur == */
+.bg-blur {
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  background-color: hsla(0, 0%, 15%, 0.2);
+}
+
+/* warna font orange  */
+.text-orange {
+  color: #fc9847;
+}
+
+/* background orange */
+.bg-orange {
+  background-color: #fc9847;
+}
+
+/* header-select input */
+.select-custom {
+  position: relative;
+}
+.select-custom select {
+  background: transparent;
+  border: none;
+  appearance: none;
+}
+
+.select-custom select option {
+  background: #111111;
+}
+
+/* header input date */
+.input-date {
+  background: transparent;
+  border: none;
+  appearance: none;
+  color: #dddddd;
+}
