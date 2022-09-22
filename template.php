@@ -194,6 +194,57 @@
                             ]
                         });
                     // portofolio kami
+
+
+                    // portofolio-travel
+                    $('.portofolio-travel').slick({
+                        dots: false,
+                        infinite: true,
+                        arrows:true,
+                        nextArrow:"<button type='button' class='btn btn-outline-orange arrow-card-right'><i class='fa fa-angle-right'></i></button>",
+                        prevArrow:"<button type='button' class='btn btn-outline-orange arrow-card-left'><i class='fa fa-angle-left'></i></button>",
+                        autoplay: true,
+                        autoplaySpeed: 1000,
+                        slidesToShow: 3,
+                        slidesToScroll: 1,
+                        responsive: [
+                            {
+                            breakpoint: 1024,
+                            settings: {
+                                slidesToShow: 2,
+                                infinite: true,
+                            }
+                            },
+                            {
+                            breakpoint: 600,
+                            settings: {
+                                slidesToShow: 2,
+                            }
+                            },
+                            {
+                            breakpoint: 480,
+                            settings: {
+                                slidesToShow: 1,
+                            }
+                            }
+                   
+                        ]
+                        });
+                    // protofolio-travel
+
+                    // single slick
+                    $('.single-item').slick({
+                        dots: false ,
+                        slidesToShow: 1,
+                        slidesToScroll: 1,
+                        infinite: true,
+                        arrows: true,
+                        nextArrow:"<button type='button' class='btn btn-outline-orange arrow-comment-right'><i class='fa fa-angle-right'></i></button>",
+                        prevArrow:"<button type='button' class='btn btn-outline-orange arrow-comment-left'><i class='fa fa-angle-left'></i></button>",
+                        autoplay: true,
+                        autoplaySpeed: 3000,
+                        pauseOnHover: true,
+                    });
                 });
             </script>
         <!-- Slick JS Home -->

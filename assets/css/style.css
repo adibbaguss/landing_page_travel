@@ -1,5 +1,10 @@
+/* css tambahan */
 @import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+body {
+  background-color: #f9f9f9;
+}
 
+/* css awal */
 .image-zoom-on-hover:hover {
   transform: scale(1.1);
   transition: 0.5s;
@@ -11,7 +16,7 @@
   text-decoration: none;
   z-index: 1070;
   bottom: 2.5%;
-  left: 49%;
+  left: 90%;
   padding: 0.15rem 0.5rem 0.15rem 0.5rem;
   box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
   -webkit-border-radius: 0.5em;
@@ -30,7 +35,7 @@
 }
 #return-to-top:hover {
   transform: rotate(45deg);
-  background-color: #0d6efd;
+  background-color: #fc9847;
   transition: 0.3s;
 }
 #return-to-top:hover i {
@@ -72,10 +77,13 @@
 /* ============ desktop view .end// ============ */
 
 /*TAMBAHKAN CSS ANDA DI BAWAH INI!!!*/
+/* size untuk text khusus jumbotron */
+.text-jumbotron {
+  font-size: 6.5vw;
+}
 /* font display */
 .text-display {
   font-family: 'Saira Stencil One', cursive;
-  font-size: 6vw;
   letter-spacing: 5px;
 }
 /* == menu background blur == */
@@ -85,14 +93,39 @@
   background-color: hsla(0, 0%, 15%, 0.2);
 }
 
-/* warna font orange  */
+/* warna font */
 .text-orange {
   color: #fc9847;
 }
 
+.text-grey {
+  color: #435555;
+}
+
+.text-semi-orange {
+  color: #d89a6a;
+}
+
+/* === memberi effect card shadow === */
+.card-shadow:hover {
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 10px 20px -12px;
+}
+
+/* == mengatur size image card == */
+.crop-img {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+}
+.crop-img img {
+  min-width: 120%;
+  height: 205px;
+}
+
 /* background orange */
-.bg-orange {
-  background-color: #fc9847;
+.bg-orange-gradient {
+  background: rgb(255, 172, 103);
+  background: linear-gradient(251deg, rgba(255, 172, 103, 1) 0%, rgba(252, 152, 71, 1) 25%);
 }
 
 /* header-select input */
@@ -115,4 +148,88 @@
   border: none;
   appearance: none;
   color: #dddddd;
+}
+
+/* background color */
+.bg-color-1 {
+  background-color: #ffe5d1;
+  border: 8px solid #ffe7d5;
+}
+
+/* shadow dibawah untuk button */
+.btn-shadow {
+  box-shadow: rgba(0, 0, 0, 0.5) 0px 10px 20px -2px;
+}
+
+.btn-shadow:active {
+  box-shadow: none;
+}
+
+/* == button custom ==*/
+/* button outline orange */
+.btn-outline-orange {
+  border: 1px solid #fc9847;
+  color: #fc9847;
+  font-weight: bold;
+  background-color: transparent;
+}
+.btn-outline-orange:hover {
+  border: 1px solid #fc9847;
+  color: #ffffff;
+  font-weight: bold;
+  background: rgb(255, 172, 103);
+  background: linear-gradient(251deg, rgba(255, 172, 103, 1) 0%, rgba(252, 152, 71, 1) 25%);
+}
+
+/*== rounded == */
+.rounded-10 {
+  border-radius: 10px;
+}
+
+.rounded-silang {
+  border-radius: 0px 10px 0px 10px;
+}
+
+/* == custom button slick ==  */
+.arrow-card-left {
+  position: absolute;
+  top: 0;
+  right: 50px;
+  margin-right: 20px;
+  opacity: 0.5;
+}
+
+.arrow-card-left:hover {
+  opacity: 1;
+}
+
+.arrow-card-right {
+  position: absolute;
+  top: 0;
+  right: 0;
+  margin-right: 20px;
+}
+
+/* arrow slick komen */
+.arrow-comment-left {
+  position: fixed;
+  bottom: 0;
+  right: 40px;
+  margin: 0px 45px 30px 0px;
+  opacity: 0.5;
+}
+
+.arrow-comment-left:hover {
+  opacity: 1;
+}
+.arrow-comment-right {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  margin: 0px 45px 30px 0px;
+}
+
+/* text align justify */
+.text-justify {
+  text-align: justify;
 }

@@ -2,8 +2,10 @@
     <div class="container pt-5 px-0 px-sm-2">
         <div class="row justify-content-between mt-5 pt-lg-2">
             <div class="col-lg-7 col-xl-6 my-auto py-5 text-light" data-aos="fade-in" data-aos-duration="2000">
-                <h1 class="fw-bolder text-display text-center text-lg-start mt-3">LIVE YOUR</h1>
-                <h1 class="fw-bolder text-display text-center text-lg-start text-orange">ADVENTURE</h1>
+                <div class="text-jumbotron fw-bolder text-display text-center text-lg-start mt-3">
+                    <p class="my-0">LIVE YOUR</p>
+                    <p class="text-orange my-0">ADVENTURE</p>
+                </div>
                 <img src="<?= $url_images; ?>/examples/<?= $imgJumbotron; ?>" title="<?= $imgJumbotron; ?>" alt="Gambar <?= $imgJumbotron; ?>" class="w-100 d-inline-block d-lg-none p-3 p-md-5">
                 <h5 class="my-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia consequuntur laboriosam, quidem esse quasi minima debitis asperiores totam dolore tempora tempore enim voluptates eius accusamus magnam quisquam illo recusandae earum!</h5>
                 <form  action="#" class="bg-blur p-2 d-flex justify-content-around rounded-5 shadow mb-5">
@@ -29,7 +31,7 @@
                         </div>
                     </div>
 
-                    <input class="btn bg-orange h-50 px-3 my-auto text-white fw-bold" type="submit" value="Search">
+                    <input class="btn bg-orange-gradient h-50 px-4 my-auto text-white fw-bold" type="submit" value="Search">
                 </form>
             </div>
             <div class="col-lg-5 col-xl-6 my-auto mb-0 text-center" data-aos="fade-in" data-aos-duration="2000">

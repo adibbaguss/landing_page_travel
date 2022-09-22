@@ -34,7 +34,7 @@
                 </li>
 
 	        	<div class="nav-item my-2 d-block d-lg-none">
-					<a target="_blank" href="#"  class="btn bg-orange text-white fw-bolder" aria-current="page" title="Register">Register</a>
+					<a target="_blank" href="#"  class="btn bg-orange-gradient px-3 text-white fw-bolder" aria-current="page" title="Register">Register</a>
 				</div>
             </ul>
         </div>
@@ -45,7 +45,7 @@
 	    </div>
         <div class="justify-content-end d-none d-lg-block">
             <div class="nav-item">
-                <a target="_blank" href="#"  class="btn bg-orange text-white fw-bolder" aria-current="page" title="Register">Register</a>
+                <a target="_blank" href="#"  class="btn bg-orange-gradient px-3 text-white fw-bolder" aria-current="page" title="Register">Register</a>
 			</div>
 	    </div>
     </div>
