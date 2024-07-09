@@ -2,7 +2,7 @@
 <section id="section-1" class="container-fluid pt-5">
     <div class="container my-5">
         <div class="text-display text-grey fs-1 mx-lg-3 mx-2">
-            <span>FIND</span> 
+            <span>FIND</span>
             <span class="text-orange">POPULAR</span>
             <p class="my-0">DESTIONATION</p>
         </div>
@@ -101,7 +101,7 @@
             </div>
             <div class="col-md-6 text-start px-lg-5 px-md-0" data-aos="fade-in" data-aos-duration="2000">
                 <div class="text-display text-grey fs-1 mx-lg-3 mx-2 my-0">
-                    <span>OUR</span> 
+                    <span>OUR</span>
                     <span class="text-orange">STORIES</span>
                     <span>WITH</span>
                     <p>ADVENTURES</p>

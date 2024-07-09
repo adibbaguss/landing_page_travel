@@ -79,7 +79,7 @@ body {
 /*TAMBAHKAN CSS ANDA DI BAWAH INI!!!*/
 /* size untuk text khusus jumbotron */
 .text-jumbotron {
-  font-size: 6.5vw;
+  font-size: 4.5vw;
 }
 /* font display */
 .text-display {
@@ -95,7 +95,7 @@ body {
 
 /* warna font */
 .text-orange {
-  color: #fc9847;
+  color: #ff6600;
 }
 
 .text-grey {

@@ -1,12 +1,12 @@
-<header class="container-fluid" style="background-image:url(<?= $url_images;?>/<?= $backgroundJumbtoron ?>)" data-aos="fade-in">
+<header class="container-fluid" style="background-image:url(<?=$url_images;?>/<?=$backgroundJumbtoron?>)" data-aos="fade-in">
     <div class="container pt-5 px-0 px-sm-2">
         <div class="row justify-content-between mt-5 pt-lg-2">
             <div class="col-lg-7 col-xl-6 my-auto py-5 text-light" data-aos="fade-in" data-aos-duration="2000">
                 <div class="text-jumbotron fw-bolder text-display text-center text-lg-start mt-3">
-                    <p class="my-0">LIVE YOUR</p>
+                    <p class="my-0 ">COMPLETE YOUR</p>
                     <p class="text-orange my-0">ADVENTURE</p>
                 </div>
-                <img src="<?= $url_images; ?>/examples/<?= $imgJumbotron; ?>" title="<?= $imgJumbotron; ?>" alt="Gambar <?= $imgJumbotron; ?>" class="w-100 d-inline-block d-lg-none p-3 p-md-5">
+                <img src="<?=$url_images;?>/examples/<?=$imgJumbotron;?>" title="<?=$imgJumbotron;?>" alt="Gambar <?=$imgJumbotron;?>" class="w-100 d-inline-block d-lg-none p-3 p-md-5">
                 <h5 class="my-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Mollitia consequuntur laboriosam, quidem esse quasi minima debitis asperiores totam dolore tempora tempore enim voluptates eius accusamus magnam quisquam illo recusandae earum!</h5>
                 <form  action="#" class="bg-blur p-2 d-flex justify-content-around rounded-5 shadow mb-5">
                     <div class="d-flex">
@@ -35,7 +35,7 @@
                 </form>
             </div>
             <div class="col-lg-5 col-xl-6 my-auto mb-0 text-center" data-aos="fade-in" data-aos-duration="2000">
-                <img src="<?= $url_images; ?>/examples/<?= $imgJumbotron; ?>" title="<?= $imgJumbotron; ?>" class="w-100 d-none d-lg-inline-block">
+                <img src="<?=$url_images;?>/examples/<?=$imgJumbotron;?>" title="<?=$imgJumbotron;?>" class="w-100 d-none d-lg-inline-block">
             </div>
         </div>
     </div>
